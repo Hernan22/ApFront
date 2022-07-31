@@ -1,0 +1,17 @@
+<div class="row">
+    <div class="container">
+        <div class="logo">
+            <a href="https://www.argentina.gob.ar/produccion/transformacion-digital-y-economia-del-conocimiento/argentina-programa"><img src="../../../assets/APLogo.png" id="logoAP" /></a>
+        </div>
+        <div class="redes">
+            <a href="https://www.facebook.com"><img src="../../../assets/facebook.png" id="facebook" style="padding-right: 5px;"/></a>
+            <a href="https://www.instagram.com/hernanchado/"><img src="../../../assets/instagram.png" id="instagram" style="padding-right: 5px;"/></a>
+            <a href="https://twitter.com/HernanChado"><img src="../../../assets/twitter.png" id="twitter" style="padding-right: 5px;"/></a>
+            <a href="https://www.linkedin.com/in/hernan-machado/"><img src="../../../assets/linkedin.png" id="linkedin" style="padding-right: 5px;"/></a>
+            <a href="https://github.com/Hernan22"><img src="../../../assets/github.png" id="github" style="padding-right: 5px;"/></a>
+            <a href="https://machado.ar"><img src="../../../assets/www.png" id="web" style="padding-right: 5px;"/></a>
+            <button type="button" class="btn btn-outline-dark" (click)="login()" *ngIf="!isLogged">INGRESAR</button>
+            <button type="button" class="btn btn-outline-dark" (click)="onLogOut()" *ngIf="isLogged">SALIR</button>
+        </div>
+    </div>
+</div>

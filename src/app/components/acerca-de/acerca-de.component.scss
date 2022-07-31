@@ -1,0 +1,46 @@
+.row{
+    padding: 20px;
+    color: #01303f;
+    /* fallback for old browsers */
+    background: #d4f0fc;
+}
+div{
+    background-color: #d4f0fc;
+    text-align: center;
+}
+
+/*etiqueta nombre*/
+
+#nombre{
+    font-weight: bold;
+    font-size: x-large;
+    margin-top: 30%;
+}
+
+#titulo{
+    font-size: x-large;
+}
+
+/*estilo del profile pic. Corregir estilo adaptable!*/
+
+@media (min-width: 576px){
+    #profile{
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 3%;
+        top: 375px;
+    }
+}
+
+// @media (min-width: 575px){
+//     #profile{
+//         position: absolute;
+//         width: 15%;
+//         border-radius: 100%;
+//         box-shadow: 3px 3px 3px grey;
+//         left: 33%;
+//         top: 630px;
+//     }
+// }
